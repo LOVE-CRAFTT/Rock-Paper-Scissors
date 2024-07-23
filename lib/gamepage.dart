@@ -24,7 +24,6 @@ class _GamePageState extends State<GamePage> {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     playerCount = widget.playerCount;
     createPlayers(playerCount);
